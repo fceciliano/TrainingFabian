@@ -1,0 +1,32 @@
+.cards-container {
+    display: inline-block;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.card > img {
+    width: 219.74px;
+    height: 279px;   
+}
+
+.image-name {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 218.61px;
+}
+
+.font-name {
+    color: white;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
