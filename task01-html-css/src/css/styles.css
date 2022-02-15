@@ -1,3 +1,5 @@
+@import url("config.css");
+
 .cards-container {
     display: inline-block;
 }
@@ -23,7 +25,7 @@
 }
 
 .font-name {
-    color: white;
+    color: var(--font-color);
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
