@@ -1,0 +1,35 @@
+@import url("config.css");
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.card__img {
+    width: 219.74px;
+    height: 279px;   
+}
+
+.card__image-name {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 218.61px;
+}
+
+.card__font-name {
+    color: var(--font-color);
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
