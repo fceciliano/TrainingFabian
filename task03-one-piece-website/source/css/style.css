@@ -1,0 +1,654 @@
+/*------------------------------------*\
+    #ABSTRACTS
+\*------------------------------------*/
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+/**
+* Primary Variants
+*/
+/**
+* Secondary Variants
+*/
+/**
+* Gray Scale
+*/
+/**
+* Utility Colors
+*/
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+@import "https://fonts.googleapis.com/css?family=Roboto";
+@import "https://fonts.googleapis.com/css?family=Roboto Slab";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+/**
+* Font headline
+*/
+/**
+* Font title
+*/
+/**
+* Font lable
+*/
+/**
+* Font body
+*/
+/*------------------------------------*\
+    #MIXINS
+\*------------------------------------*/
+/*------------------------------------*\
+    #HEADING
+\*------------------------------------*/
+/**
+* Large Heading
+*/
+/**
+* Medium Heading
+*/
+/**
+* Small Heading
+*/
+/*------------------------------------*\
+    #TITLES
+\*------------------------------------*/
+/**
+* Large Title
+*/
+/**
+* Medium Title
+*/
+/**
+* Small Title
+*/
+/*------------------------------------*\
+    #LABLES
+\*------------------------------------*/
+/**
+* Large Lable
+*/
+/**
+* Medium Lable
+*/
+/**
+* Small Lable
+*/
+/*------------------------------------*\
+    #Body
+\*------------------------------------*/
+/**
+* X-Large Body
+*/
+/**
+* Large Body
+*/
+/**
+* Large Body italic
+*/
+/**
+* Medium Body
+*/
+/**
+* Small Body
+*/
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  height: 1px;
+  background-color: #0C75AF;
+  border: none;
+}
+
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+/*------------------------------------*\
+    #Nav bar image
+\*------------------------------------*/
+.nav-image {
+  height: 40px;
+  width: 112.41px;
+}
+
+/*------------------------------------*\
+    #Main image
+\*------------------------------------*/
+.main-image {
+  width: 100%;
+  height: auto;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 50%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 50%);
+}
+
+/*------------------------------------*\
+    #Card image
+\*------------------------------------*/
+.card-img {
+  width: 181.94px;
+  height: 231px;
+}
+
+/*------------------------------------*\
+    #Card image island
+\*------------------------------------*/
+.card-img-island {
+  width: 194px;
+  height: 193px;
+}
+
+/*------------------------------------*\
+    #Card image object
+\*------------------------------------*/
+.card-img-object {
+  width: 174.49px;
+  height: 132px;
+}
+
+/*------------------------------------*\
+    #Footer image
+\*------------------------------------*/
+.footer-image {
+  width: 97px;
+  height: 89px;
+}
+
+/*------------------------------------*\
+    #Flag image
+\*------------------------------------*/
+.flag-img {
+  width: 30.79px;
+  height: 30.79px;
+}
+
+/*------------------------------------*\
+    #Nav bar
+\*------------------------------------*/
+.nav-bar {
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar__icon span {
+  margin-left: 19px;
+  color: black;
+}
+.nav-bar__list {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 271px;
+  background: #0C75AF;
+}
+.footer__text {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: white;
+  width: 286px;
+  height: 48px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.footer__image {
+  margin: 38px;
+  margin-top: 0px;
+}
+
+/*------------------------------------*\
+    #Page header
+\*------------------------------------*/
+.header__title {
+  font-family: "Roboto Slab";
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+}
+.header__text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  white-space: pre-line;
+}
+.header__moreText {
+  display: none;
+}
+
+/*------------------------------------*\
+    #Button
+\*------------------------------------*/
+.read-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+.read-btn__text {
+  color: #0C75AF;
+}
+.read-btn__icon {
+  color: #0C75AF;
+}
+
+/*------------------------------------*\
+    #Synopsis
+\*------------------------------------*/
+.synopsis {
+  box-shadow: 0px 0px 8px 0px #B8E1FF;
+  padding: 8px;
+  background-color: white;
+}
+
+.hiden-image {
+  display: none;
+  margin-bottom: 33px;
+  justify-content: center;
+}
+.hiden-image .nav-image {
+  width: 163px;
+  height: 58px;
+}
+
+/*------------------------------------*\
+    #Single Card
+\*------------------------------------*/
+.card {
+  position: relative;
+  text-align: center;
+  margin-right: 20px;
+}
+
+/*------------------------------------*\
+    #Character Card
+\*------------------------------------*/
+.card__image-name {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 218.61px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: white;
+}
+
+/*------------------------------------*\
+    #Island Card
+\*------------------------------------*/
+.card-island {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 178px;
+  height: 48px;
+  background: rgba(0, 96, 150, 0.59);
+  backdrop-filter: blur(4px);
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+}
+.card-island__name {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.card-island__location {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+}
+
+/*------------------------------------*\
+    #Mist Object Card
+\*------------------------------------*/
+.card-size {
+  width: 358px;
+  height: 132px;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 32px;
+}
+
+.card-object-image {
+  position: absolute;
+  z-index: -1;
+}
+
+.card-object {
+  position: absolute;
+  z-index: 1;
+  left: 117.33px;
+  background: rgba(0, 96, 150, 0.59);
+  backdrop-filter: blur(4px);
+  border-radius: 6px;
+  width: 240.67px;
+  height: 116px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  color: white;
+}
+.card-object__title {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.card-object__text {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+/*------------------------------------*\
+    #List of Cards
+\*------------------------------------*/
+.cards-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+.cards-header__name {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: bold;
+  color: #171717;
+}
+.cards-header__all {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #0C75AF;
+}
+
+.cards-container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards-container-scroll {
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-start;
+}
+.cards-container-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/*------------------------------------*\
+    #Home page styles
+\*------------------------------------*/
+.main-body, .main-synopsis__text {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/*------------------------------------*\
+    #Input text
+\*------------------------------------*/
+.input-container {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: #B5B5B5;
+  width: 100%;
+  height: 56px;
+  margin-top: 48px;
+}
+.input-container__input-field {
+  width: 100%;
+  padding-left: 20px;
+  outline: none;
+  border: none;
+  color: #7D7D7D;
+}
+.input-container__icon {
+  color: #7D7D7D;
+  margin-left: 5px;
+}
+
+.list-nav {
+  list-style-type: none;
+}
+.list-nav__page, .list-nav__flag {
+  margin-right: 48px;
+  float: left;
+}
+.list-nav__page a, .list-nav__flag a {
+  display: block;
+  text-decoration: none;
+  color: #575757;
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: bold;
+}
+
+/*------------------------------------*\
+    #DISPLAY
+\*------------------------------------*/
+/*------------------------------------*\
+    #Middle display
+\*------------------------------------*/
+@media screen and (min-width: 768px) {
+  .main-image {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .card-img {
+    width: 145px;
+    height: 184.1px;
+  }
+
+  .card-img-island {
+    width: 200.03px;
+    height: 199px;
+  }
+
+  .card-img-object {
+    width: 181px;
+    height: 175px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-size {
+    width: 300px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 32px;
+  }
+
+  .card-object {
+    width: 180px;
+    height: 160px;
+  }
+  .card-object__title {
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-body, .main-synopsis__text {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+
+  .main-body, .main-synopsis__text {
+    position: relative;
+    bottom: 90px;
+  }
+
+  .hiden-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    margin-right: 0px;
+  }
+
+  .cards-container-scroll {
+    justify-content: space-between;
+  }
+}
+/*------------------------------------*\
+    #Large display
+\*------------------------------------*/
+@media screen and (min-width: 1280px) {
+  .nav-bar .nav-bar__list {
+    display: flex;
+  }
+  .nav-bar .nav-bar__icon {
+    display: none;
+  }
+  .nav-bar span {
+    display: none;
+  }
+
+  .nav-image {
+    width: 163px;
+    height: 58px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-body, .main-synopsis, .main-navbar {
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+
+  .main-body, .main-synopsis__text {
+    position: static;
+    bottom: 0px;
+  }
+
+  .main-synopsis__text {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .main-synopsis {
+    display: flex;
+  }
+
+  .main-image {
+    width: 640px;
+    height: 628px;
+    object-fit: cover;
+  }
+
+  .synopsis {
+    height: 612px;
+  }
+  .synopsis .header__moreText {
+    display: inline;
+  }
+  .synopsis .read-btn, .synopsis hr {
+    display: none;
+  }
+
+  .hiden-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-image {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .card-img {
+    width: 219.74px;
+    height: 279px;
+  }
+
+  .card-img-island {
+    width: 300.05px;
+    height: 298.5px;
+  }
+
+  .card-img-object {
+    width: 263.22px;
+    height: 254.29px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .card-size {
+    width: 461px;
+    height: 254.29px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 32px;
+  }
+
+  .card-object {
+    width: 297.42px;
+    height: 239px;
+  }
+  .card-object__title {
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+  }
+  .card-object__text {
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

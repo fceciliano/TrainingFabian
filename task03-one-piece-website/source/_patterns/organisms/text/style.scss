@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #Synopsis
+\*------------------------------------*/
+
+.synopsis {
+    box-shadow: 0px 0px 8px 0px #B8E1FF;
+    padding: 8px;
+    background-color: $color-white;
+}
+
+.hiden-image{
+    display: none;
+    margin-bottom: 33px;
+    justify-content: center;
+
+    .nav-image{
+        width: 163px;
+        height: 58px;
+    }
+
+}

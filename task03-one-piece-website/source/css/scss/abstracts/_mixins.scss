@@ -1,0 +1,164 @@
+/*------------------------------------*\
+    #MIXINS
+\*------------------------------------*/
+
+/*------------------------------------*\
+    #HEADING
+\*------------------------------------*/
+
+/**
+* Large Heading
+*/
+@mixin typographyHeadingLarge() {
+    font-family: $font-family;
+    font-size: $font-headline-large;
+    line-height: 40px;
+}
+
+/**
+* Medium Heading
+*/
+@mixin typographyHeadingMedium() {
+    font-family: $font-family;
+    font-size: $font-headline-med;
+    line-height: 36px;
+}
+
+/**
+* Small Heading
+*/
+@mixin typographyHeadingMedium() {
+    font-family: $font-family;
+    font-size: $font-headline-sm;
+    line-height: 32px;
+}
+
+
+/*------------------------------------*\
+    #TITLES
+\*------------------------------------*/
+
+/**
+* Large Title
+*/
+@mixin typographyTitleLarge() {
+    font-family: $font-family;
+    font-size: $font-title-large;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+/**
+* Medium Title
+*/
+@mixin typographyTitleMedium() {
+    font-family: $font-family;
+    font-size: $font-title-med;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+}
+
+/**
+* Small Title
+*/
+@mixin typographyTitleSmall() {
+    font-family: $font-family;
+    font-size: $font-title-sm;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+}
+
+/*------------------------------------*\
+    #LABLES
+\*------------------------------------*/
+
+/**
+* Large Lable
+*/
+@mixin typographyLableLarge() {
+    font-family: $font-family-secondary;
+    font-size: $font-lable-large;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+}
+
+/**
+* Medium Lable
+*/
+@mixin typographyLableMedium() {
+    font-family: $font-family-secondary;
+    font-size: $font-lable-med;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+/**
+* Small Lable
+*/
+@mixin typographyLableSmall() {
+    font-family: $font-family-secondary;
+    font-size: $font-lable-sm;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+
+/*------------------------------------*\
+    #Body
+\*------------------------------------*/
+
+/**
+* X-Large Body
+*/
+@mixin typographyBodyXLarge() {
+    font-family: $font-family-secondary;
+    font-size: $font-body-xl;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+/**
+* Large Body
+*/
+@mixin typographyBodyLarge() {
+    font-family: $font-family-secondary;
+    font-size: $font-body-l;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+/**
+* Large Body italic
+*/
+@mixin typographyBodyLargeItalic() {
+    font-family: $font-family-secondary;
+    font-size: $font-body-l;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    font-style: italic;
+}
+
+/**
+* Medium Body
+*/
+@mixin typographyBodyMedium() {
+    font-family: $font-family-secondary;
+    font-size: $font-body-med;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+/**
+* Small Body
+*/
+@mixin typographyBodySmall() {
+    font-family: $font-family-secondary;
+    font-size: $font-body-sm;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}

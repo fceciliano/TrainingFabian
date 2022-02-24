@@ -1,0 +1,143 @@
+/*------------------------------------*\
+    #Single Card
+\*------------------------------------*/
+
+.card {
+    position: relative;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/*------------------------------------*\
+    #Character Card
+\*------------------------------------*/
+.card__image-name{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 218.61px;
+
+    @include typographyLableMedium();
+    color: $color-white;
+}
+
+/*------------------------------------*\
+    #Island Card
+\*------------------------------------*/
+.card-island{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 178px;
+    height: 48px;
+
+    
+    background: rgba(0, 96, 150, 0.59);
+    backdrop-filter: blur(4px);
+    border-radius: 6px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10px;
+    color: $color-white;
+
+    &__name{
+        @include typographyLableSmall();
+    }
+
+    &__location{
+        @include typographyBodySmall();
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/*------------------------------------*\
+    #Mist Object Card
+\*------------------------------------*/
+.card-size{
+    width: 358px;
+    height: 132px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 32px;
+}
+
+.card-object-image{
+    position:absolute;
+    z-index: -1;
+}
+
+.card-object{
+    position:absolute;
+    z-index: 1;
+    left: 117.33px;
+
+    background: rgba(0, 96, 150, 0.59);
+    backdrop-filter: blur(4px);
+    border-radius: 6px;
+
+    width: 240.67px;
+    height: 116px;
+
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:left;
+
+    color: $color-white;
+
+    &__title{
+        @include typographyLableSmall();
+    }
+
+    &__text{
+        @include typographyBodySmall();
+    }
+
+}
+
+// @media screen and (min-width: 768px){
+//     .card-size{
+//         width: 300px;
+//         height: 160px;
+//         left: 0px;
+//         top: 0px;
+//         margin-bottom: 32px;
+//     }
+
+//     .card-object{
+//         width: 180px;
+//         height: 160px;
+
+//         &__title{
+//             @include typographyTitleSmall();
+//         }
+//     }
+// }
+
+// @media screen and (min-width: 1280px){
+//     .card-size{
+//         width: 461px;
+//         height: 254.29px;
+//         left: 0px;
+//         top: 0px;
+//         margin-bottom: 32px;
+//     }
+
+//     .card-object{
+//         width: 297.42px;
+//         height: 254.29px;
+
+//         &__title{
+//             @include typographyTitleMedium();
+//         }
+//     }
+// }

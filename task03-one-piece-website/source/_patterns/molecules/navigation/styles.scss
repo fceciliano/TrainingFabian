@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    #Nav bar
+\*------------------------------------*/
+
+.nav-bar {
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icon{
+        span{
+            margin-left: 19px;
+            color: black;
+        }
+    }
+
+    &__list{
+        display: none;
+    }
+
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    height: 271px;
+    background: $color-primary-dark-01;
+
+    &__text{
+        @include typographyBodySmall();
+        color: $color-white;
+        width: 286px;
+        height: 48px;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    &__image{
+        margin: 38px;
+        margin-top: 0px;
+    }
+}

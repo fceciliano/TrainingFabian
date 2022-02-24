@@ -1,0 +1,109 @@
+{
+    "functionName": "displayMenu()",
+    "navImage": "../../images/One-Piece-Logo.svg",
+    "footerImage": "../../images/skull.svg",
+    "mainImage": "../../images/homeBackgroudImg.png",
+    "alt": "One piece",
+    "synopsis": {
+        "title": "Synopsis"
+    },
+    "button":{
+        "text": "Read All"
+    },
+    "cards":[
+        {
+            "cardImage": "../../images/monkeydluffy.svg",
+            "cardName": "Monkey D. Luffy",
+            "cardAlt": "Monkey D. Luffy"
+        },
+        {
+            "cardImage": "../../images/Ace.svg",
+            "cardName": "Portgas D. Ace",
+            "cardAlt": "Portgas D. Ace"
+        },
+        {
+            "cardImage": "../../images/zoro.svg",
+            "cardName": "Roronoa Zoro",
+            "cardAlt": "Roronoa Zoro"
+        },
+        {
+            "cardImage": "../../images/nico.svg",
+            "cardName": "Nico Robin",
+            "cardAlt": "Nico Robin"
+        }
+    ],
+    "islandsCards":[
+        {
+            "cardImage": "../../images/dawn.svg",
+            "islandName":"Reverse Mountain",
+            "islandLocation": "East Blue",
+            "cardAlt": "East Blue"
+        },
+        {
+            "cardImage": "../../images/reverse.svg",
+            "islandName":"Reverse Mountain",
+            "islandLocation": "Red Line",
+            "cardAlt": "Red Line"
+        },
+        {
+            "cardImage": "../../images/reverse.svg",
+            "islandName":"Reverse Mountain",
+            "islandLocation": "Red Line",
+            "cardAlt": "Red Line"
+        }
+    ],
+    "objectsCards":[
+        {
+            "cardImage": "../../images/gomu2.svg",
+            "cardAlt": "alternative name 1",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        },
+        {
+            "cardImage": "../../images/gomu2.svg",
+            "cardAlt": "alternative name 2",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        },
+        {
+            "cardImage": "../../images/gomu2.svg",
+            "cardAlt": "alternative name 3",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        },
+        {
+            "cardImage": "../../images/gomu2.svg",
+            "cardAlt": "alternative name 4",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        }
+    ],
+    "navlist":[
+        {
+            "page": "Home",
+            "link": "/"
+        },
+        {
+            "page": "Characters",
+            "link": "/characters"
+        },
+        {
+            "page": "Islands",
+            "link": "/islands"
+        },
+        {
+            "page": "Mist Objects",
+            "link": "/mist-objects"
+        }
+    ],
+    "flaglist":[
+        {
+            "flagImage": "../../images/en.svg",
+            "flagAlt": "en"
+        },
+        {
+            "flagImage": "../../images/es.svg",
+            "flagAlt": "es"
+        }
+    ]
+}

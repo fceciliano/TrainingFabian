@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    #Input text
+\*------------------------------------*/
+
+.input-container {
+    display: flex;
+    align-items: center;
+    
+    border-style: solid;
+    border-radius: 6px;
+    border-color: $color-gray-2;
+
+    width: 100%;
+    height: 56px;
+    margin-top: 48px;
+
+    &__input-field{
+        width: 100%;
+        padding-left: 20px;
+        outline: none;
+        border: none;
+        color: $color-gray-1;
+    }
+
+    &__icon{
+        color: $color-gray-1;
+        margin-left: 5px;
+    }
+
+}
+
+
+.list-nav{
+    list-style-type: none;
+
+    &__page, &__flag{
+        margin-right: 48px;
+        float: left;
+        a{
+            display:block;
+            text-decoration: none;
+            color: $color-gray-0;
+            @include typographyTitleMedium();
+        }
+    }
+
+
+}
