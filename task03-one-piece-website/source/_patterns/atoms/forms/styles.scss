@@ -36,6 +36,7 @@
     &__page, &__flag{
         margin-right: 48px;
         float: left;
+
         a{
             display:block;
             text-decoration: none;
@@ -43,6 +44,5 @@
             @include typographyTitleMedium();
         }
     }
-
 
 }

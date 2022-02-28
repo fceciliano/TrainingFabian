@@ -24,11 +24,9 @@
 .footer{
     display: flex;
     flex-wrap: wrap;
-    
     align-content: center;
     justify-content: center;
     align-items: center;
-    
     height: 271px;
     background: $color-primary-dark-01;
 
@@ -45,4 +43,5 @@
         margin: 38px;
         margin-top: 0px;
     }
+
 }
