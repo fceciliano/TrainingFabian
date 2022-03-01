@@ -26,7 +26,7 @@
 \*------------------------------------*/
 .card-island{
     position: absolute;
-    bottom: 20px;
+    bottom: -10px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 178px;
@@ -74,7 +74,7 @@
     left: 117.33px;
     background: rgba(0, 96, 150, 0.59);
     backdrop-filter: blur(4px);
-    border-radius: 6px;
+    border-radius: 0px 6px 6px 0px;
     width: 240.67px;
     height: 116px;
     padding: 8px;

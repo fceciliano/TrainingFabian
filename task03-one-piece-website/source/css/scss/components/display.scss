@@ -113,6 +113,7 @@
 
     .synopsis{
         height: 612px;
+        border-radius: 0px;
 
         .header__moreText{
             display: inline;
@@ -141,6 +142,14 @@
     .card-img-island{
         width: 300.05px;
         height: 298.5px;
+    }
+
+    .card-island{
+        width: 275.26px;
+        height: 74.23px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .card-img-object{
