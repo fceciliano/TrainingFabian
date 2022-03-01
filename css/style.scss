@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #ABSTRACTS
+\*------------------------------------*/
+@import "scss/abstracts/variables";
+@import "scss/abstracts/mixins";
+
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+@import "scss/base/body";
+
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+
+@import "../_patterns/atoms/images/styles.scss";
+@import "../_patterns/molecules/navigation/styles.scss";
+@import "../_patterns/molecules/text/styles.scss";
+@import "../_patterns/molecules/buttons/styles.scss";
+@import "../_patterns/organisms/text/style.scss";
+@import "../_patterns/molecules/cards/styles.scss";
+@import "../_patterns/organisms/gallery/styles.scss";
+@import "../_patterns/templates/styles.scss";
+@import "../_patterns/atoms/forms/styles.scss";
+
+
+/*------------------------------------*\
+    #DISPLAY
+\*------------------------------------*/
+@import "../css/scss/components/display.scss"
