@@ -18,7 +18,7 @@
     }
 
     .card-img-object{
-        width: 181px;
+        width: 100%;
         height: 175px;
     }
 
@@ -108,6 +108,7 @@
         width: 640px;
         height: 628px;
         object-fit: cover;
+        border-radius: 16px 0px 0px 16px;
     }
 
     .synopsis{
@@ -143,7 +144,7 @@
     }
 
     .card-img-object{
-        width: 263.22px;
+        width: 100%;
         height: 254.29px;
     }
 
@@ -158,6 +159,7 @@
     .card-object{
         width: 297.42px;
         height: 239px;
+        left: 163.58px;
 
         &__title{
             @include typographyTitleMedium();
@@ -166,6 +168,10 @@
         &__text{
             @include typographyBodyLarge();
         }
+    }
+
+    .cards-container-wrap{
+        justify-content: space-between;
     }
 
 }
