@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #Page header
+\*------------------------------------*/
+
+.header {
+    &__title{
+        @include typographyTitleLarge();
+    };
+    
+    &__text{
+        @include typographyBodyMedium();
+        white-space: pre-line;
+    }
+
+    &__moreText{
+        display: none;
+    }
+
+}

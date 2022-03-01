@@ -1,0 +1,93 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+ /*------------------------------------*\
+     #COLORS
+ \*------------------------------------*/
+
+/**
+* Primary Variants
+*/
+
+$color-primary-dark-02: #006096;
+$color-primary-dark-01: #0C75AF;
+$color-primary: #66B7F1;
+$color-primary-light-01: #B8E1FF;
+$color-primary-light-02: #EAF5FF;
+ 
+/**
+* Secondary Variants
+*/
+
+$color-secondary-dark-02: #0072CE;
+$color-secondary-dark-01: #008DFF;
+$color-secondary: #00B5E2;
+$color-secondary-light-01: #62E0FF;
+$color-secondary-light-02: #A0ECFF;
+ 
+/**
+* Gray Scale
+*/
+$color-black: #171717;
+$color-gray-0: #575757;
+$color-gray-1: #7D7D7D;
+$color-gray-2: #B5B5B5;
+$color-gray-3: #DCDCDC;
+$color-gray-4: #ECECEC;
+$color-gray-5: #F3F3F3;
+$color-white: white;
+
+/**
+* Utility Colors
+*/
+$color-utility-info: #0192d0;
+$color-utility-info-light: #d3f2ff;
+$color-utility-error: #b12a0b;
+$color-utility-error-light: #fdded8;
+$color-utility-success: #03804d;
+$color-utility-success-light: #d4f3e6;
+$color-utility-warning: #a59b15;
+$color-utility-warning-light: #fffecf;
+
+
+
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+@import "https://fonts.googleapis.com/css?family=Roboto";
+@import "https://fonts.googleapis.com/css?family=Roboto Slab";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+$font-family: 'Roboto Slab';
+$font-family-secondary: 'Roboto';
+
+/**
+* Font headline
+*/
+$font-headline-large: 32px;
+$font-headline-med: 28px;
+$font-headline-sm: 24px;
+
+/**
+* Font title
+*/
+$font-title-large: 22px;
+$font-title-med: 18px;
+$font-title-sm: 16px;
+
+/**
+* Font lable
+*/
+$font-lable-large: 16px;
+$font-lable-med: 14px;
+$font-lable-sm: 13px;
+ 
+/**
+* Font body
+*/
+$font-body-xl: 20px;
+$font-body-l: 18px;
+$font-body-med: 16px;
+$font-body-sm: 14px;
+
