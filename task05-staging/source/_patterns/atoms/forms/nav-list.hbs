@@ -1,0 +1,10 @@
+<ul class="list-nav">
+    {{#each navlist}}
+        <li class="list-nav__page"><a href="{{link}}">{{page}}</a></li>
+    {{/each}}
+    {{#each flaglist}}
+        <li class="list-nav__flag">
+            {{> atoms-flag-image}}
+        </li>
+    {{/each}}
+</ul>

@@ -1,0 +1,31 @@
+{
+  "homepage": "http://fceciliano.github.io/TrainingFabian",
+  "name": "task03-one-piece-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run pl:build",
+    "deploy": "npm run pl:build && gh-pages -d public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pl:build": "patternlab build --config ./patternlab-config.json",
+    "pl:help": "patternlab --help",
+    "pl:install": "patternlab install --config ./patternlab-config.json",
+    "pl:serve": "patternlab serve --config ./patternlab-config.json",
+    "pl:version": "patternlab --version",
+    "sass": "sass ./source/css/style.scss ./source/css/style.css",
+    "start": "npm run pl:serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pattern-lab/cli": "^5.16.2",
+    "@pattern-lab/core": "^5.16.2",
+    "@pattern-lab/engine-handlebars": "^5.16.1",
+    "@pattern-lab/uikit-workshop": "^5.16.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

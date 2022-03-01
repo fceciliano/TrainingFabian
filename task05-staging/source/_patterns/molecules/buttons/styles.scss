@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #Button
+\*------------------------------------*/
+
+.read-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    @include typographyBodyLarge();
+
+    &__text{
+        color: $color-primary-dark-01;
+    }
+
+    &__icon{
+        color: $color-primary-dark-01;
+    }
+
+}
