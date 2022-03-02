@@ -1,0 +1,78 @@
+{
+    "cardImage": "../../images/previewImg.jpeg",
+    "cardName": "image Name",
+    "cardAlt": "alternative name",
+    "islandName": "island name",
+    "islandLocation": "location name",
+    "objectTitle": "Object name",
+    "objectText": "Description of the object",
+    "cards":[
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardName": "image Name 1",
+            "cardAlt": "alternative name 1"
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardName": "image Name 2",
+            "cardAlt": "alternative name 2"
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardName": "image Name 3",
+            "cardAlt": "alternative name 3"
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardName": "image Name 4",
+            "cardAlt": "alternative name 4"
+        }
+    ],
+    "islandsCards":[
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "islandName":"island name 1",
+            "islandLocation": "location Name 1",
+            "cardAlt": "alternative name 1"
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "islandName":"island name 2",
+            "islandLocation": "location Name 2",
+            "cardAlt": "alternative name 2"
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "islandName":"island name 3",
+            "islandLocation": "location Name 3",
+            "cardAlt": "alternative name 3"
+        }
+    ],
+    "objectsCards":[
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardAlt": "alternative name 1",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardAlt": "alternative name 2",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardAlt": "alternative name 3",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        },
+        {
+            "cardImage": "../../images/previewImg.jpeg",
+            "cardAlt": "alternative name 4",
+            "objectTitle": "Gomu Gomu No Mi",
+            "objectText": "Is a Paramecia-type Devil Fruit that gives the user's body the properties of rubber, making the user a Rubber Human. It was then accidentally eaten by the series protagonist, Monkey D. Luffy."
+        }
+    ]
+
+}

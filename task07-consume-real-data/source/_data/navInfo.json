@@ -1,0 +1,33 @@
+{
+    "image": {
+        "navImage": "../../images/previewImg.jpeg"
+    },
+    "navlist":[
+        {
+            "page": "namePage1",
+            "link": "#link"
+        },
+        {
+            "page": "namePage2",
+            "link": "#link"
+        },
+        {
+            "page": "namePage3",
+            "link": "#link"
+        },
+        {
+            "page": "namePage4",
+            "link": "#link"
+        }
+    ],
+    "flaglist":[
+        {
+            "flagImage": "../../images/previewImg.jpeg",
+            "flagAlt": "flag 1"
+        },
+        {
+            "flagImage": "../../images/previewImg.jpeg",
+            "flagAlt": "flag 2"
+        }
+    ]
+}
