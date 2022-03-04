@@ -1,0 +1,45 @@
+@import '../../../assets/css/style.scss';
+
+/*------------------------------------*\
+    #Header List of Cards
+\*------------------------------------*/
+.cards-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 32px;
+
+    &__name{
+        @include typographyTitleMedium();
+        color: $color-black;
+    }
+
+    &__all{
+        @include typographyBodyMedium();
+        color: $color-primary-dark-01;
+    }
+}
+
+/*------------------------------------*\
+    #Page header
+\*------------------------------------*/
+
+.header {
+    &__title{
+        @include typographyTitleLarge();
+    };
+    
+    &__text{
+        @include typographyBodyMedium();
+        white-space: pre-line;
+    }
+
+    &__moreText{
+        display: none;
+    }
+
+    &__lessText{
+        display: inline;
+    }
+
+}

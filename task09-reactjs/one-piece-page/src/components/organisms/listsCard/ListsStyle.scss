@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #List of Cards
+\*------------------------------------*/
+.cards-container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards-container-scroll {
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
