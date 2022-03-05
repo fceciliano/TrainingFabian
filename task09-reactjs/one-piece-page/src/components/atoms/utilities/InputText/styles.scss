@@ -1,4 +1,4 @@
-@import '../../../assets/css/style.scss';
+@import '../../../../assets/css/style.scss';
 
 /*------------------------------------*\
     #Input text
@@ -28,24 +28,6 @@
     &__icon{
         color: $color-gray-1;
         margin-left: 5px;
-    }
-
-}
-
-
-.list-nav{
-    list-style-type: none;
-
-    &__page, &__flag{
-        margin-right: 48px;
-        float: left;
-
-        a{
-            display:block;
-            text-decoration: none;
-            color: $color-gray-0;
-            @include typographyTitleMedium();
-        }
     }
 
 }

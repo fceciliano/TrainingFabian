@@ -1,11 +1,11 @@
 import React from 'react';
-import NavBar from '../molecules/navigation/NavBar';
-import Image from '../atoms/Image';
-import Synopsis from '../organisms/Text/Synopsis';
-import InputText from '../atoms/utilities/InputText';
-import ListCard from '../organisms/listsCard/ListCard';
-import Footer from '../molecules/navigation/Footer';
-import './HomePageStyle.scss'
+import NavBar from '../../molecules/navigation/NavBar/index';
+import Image from '../../atoms/Image';
+import Synopsis from '../../organisms/Synopsis/index';
+import InputText from '../../atoms/utilities/InputText';
+import ListCard from '../../organisms/listsCard/index';
+import Footer from '../../molecules/navigation/Footer';
+import './styles.scss'
 
 const HomePageTemp = ({navBar, footer, mainImage, synopsis, heroes, islands, objects}) => {
     return (

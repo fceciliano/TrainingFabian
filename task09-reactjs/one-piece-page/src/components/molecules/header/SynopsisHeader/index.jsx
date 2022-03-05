@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeaderStyle.scss'
+import './styles.scss'
 
 const SynopsisHeader = ({synopsis,activeClase}) => {
     return (

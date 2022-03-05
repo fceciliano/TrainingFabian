@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePageTemp from '../templates/HomePageTemp';
+import HomePageTemp from '../../templates/Home/index';
 
 const HomePage = ({information}) => {
     return (

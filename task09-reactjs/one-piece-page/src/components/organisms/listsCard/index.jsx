@@ -1,9 +1,9 @@
 import React from 'react';
-import './ListsStyle.scss';
+import './styles.scss';
 import CardsHeader from '../../molecules/header/CardsHeader';
-import CardHero from '../../molecules/cards/CardHero';
-import CardIsland from '../../molecules/cards/CardIsland';
-import CardObject from '../../molecules/cards/CardObject';
+import CardHero from '../../molecules/cards/CardHero/index';
+import CardIsland from '../../molecules/cards/CardIsland/index';
+import CardObject from '../../molecules/cards/CardObject/index';
 
 const ListCard = ({headerName, listElements}) => {
     if (headerName === "Characters") {

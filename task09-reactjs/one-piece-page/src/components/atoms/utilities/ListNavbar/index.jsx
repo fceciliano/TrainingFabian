@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from '../../atoms/Image';
-import './Styles.scss'
+import Image from '../../Image';
+import './styles.scss'
 
 const ListNavbar = ({navlist, flaglist}) => {
     return (

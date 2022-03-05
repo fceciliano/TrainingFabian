@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Image from '../../atoms/Image';
 import SynopsisHeader from '../../molecules/header/SynopsisHeader';
-import SypnosisButton from '../../atoms/Buttons/SynopsisButton';
-import './SynopsisStyle.scss'
+import SypnosisButton from '../../atoms/Buttons/index'
+import './styles.scss'
 
 const Synopsis = ({synopsis}) => {
     const [activeClass, setactiveClass] = useState("header__moreText");
@@ -23,4 +23,3 @@ const Synopsis = ({synopsis}) => {
 };
 
 export default Synopsis;
-//"hiden-image"

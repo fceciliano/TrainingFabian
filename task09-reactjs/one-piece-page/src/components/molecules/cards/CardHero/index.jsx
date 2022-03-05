@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from '../../atoms/Image';
-import './CardsStyle.scss'
+import Image from '../../../atoms/Image';
+import './styles.scss'
 
 const CardHero = ({hero}) => {
     return (

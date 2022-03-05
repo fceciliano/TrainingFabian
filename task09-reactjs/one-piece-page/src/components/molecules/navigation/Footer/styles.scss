@@ -1,28 +1,8 @@
-@import '../../../assets/css/style.scss';
+@import '../../../../assets/css/style.scss';
 
 /*------------------------------------*\
-    #Nav bar
+    #Footer
 \*------------------------------------*/
-
-.nav-bar {
-    height: 78px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    &__icon{
-        span{
-            margin-left: 19px;
-            color: black;
-        }
-    }
-
-    &__list{
-        display: none;
-    }
-
-}
-
 .footer{
     display: flex;
     flex-wrap: wrap;

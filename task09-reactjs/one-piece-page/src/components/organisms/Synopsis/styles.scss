@@ -26,3 +26,29 @@
     }
 
 }
+
+@media screen and (min-width: 768px){
+    .hiden-image{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .synopsis{
+        height: 612px;
+        border-radius: 0px;
+
+        .header__moreText{
+            display: inline;
+        }
+
+        .read-btn, hr{
+            display: none;
+        }
+
+    }
+
+    .hiden-image{
+        display: none;
+    }
+}

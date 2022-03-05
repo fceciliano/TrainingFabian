@@ -1,0 +1,21 @@
+@import '../../../../assets/css/style.scss';
+
+/*------------------------------------*\
+    #List navbar
+\*------------------------------------*/
+.list-nav{
+    list-style-type: none;
+
+    &__page, &__flag{
+        margin-right: 48px;
+        float: left;
+
+        a{
+            display:block;
+            text-decoration: none;
+            color: $color-gray-0;
+            @include typographyTitleMedium();
+        }
+    }
+
+}

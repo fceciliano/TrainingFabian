@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './ButtonStyle.scss'
+import './styles.scss'
 
 const SypnosisButton = ({text,setactiveClass,activeClass,setActiveImage,valImage}) => {
     
-    var [btnName, setBtnName] = useState(text);
+    const [btnName, setBtnName] = useState(text);
 
     const change = () => {
         if(activeClass === "header__moreText"){

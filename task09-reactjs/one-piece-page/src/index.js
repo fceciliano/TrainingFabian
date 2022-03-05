@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import HomePage from './components/pages/HomePage';
+import HomePage from './components/pages/Home/index';
 import Data from './service/DataConsumerService';
 
 ReactDOM.render(

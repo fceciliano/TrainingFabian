@@ -16,3 +16,15 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 768px){
+    .cards-container-scroll{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .cards-container-wrap{
+        justify-content: space-between;
+    }
+}

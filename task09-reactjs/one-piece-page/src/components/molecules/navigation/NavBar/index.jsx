@@ -1,7 +1,7 @@
 import React from 'react';
-import Image from '../../atoms/Image';
-import ListNavbar from '../../atoms/utilities/ListNavbar';
-import './Styles.scss'
+import Image from '../../../atoms/Image';
+import ListNavbar from '../../../atoms/utilities/ListNavbar';
+import './styles.scss'
 
 const NavBar = ({navBar}) => {
     return (
