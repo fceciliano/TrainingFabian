@@ -9,6 +9,11 @@
     padding: 8px;
     background-color: $color-white;
     border-radius: 6px;
+
+    &__tittle{
+        @include typographyTitleLarge();
+        padding-bottom: 16px;
+    }
 }
 
 .inactive{
@@ -37,6 +42,7 @@
     .synopsis{
         height: 612px;
         border-radius: 0px;
+        padding: 16px 16px 0px 16px;
 
         .header__moreText{
             display: inline;
@@ -44,6 +50,10 @@
 
         .read-btn, hr{
             display: none;
+        }
+
+        &__tittle{
+            padding-top: 16px;
         }
 
     }

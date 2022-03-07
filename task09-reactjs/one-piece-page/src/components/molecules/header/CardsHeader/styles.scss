@@ -19,3 +19,13 @@
         color: $color-primary-dark-01;
     }
 }
+
+@media screen and (min-width: 1280px){
+    .cards-header{
+        &__name{
+            @include typographyHeadingMedium();
+            font-weight: 200;
+        }
+
+    }
+}
