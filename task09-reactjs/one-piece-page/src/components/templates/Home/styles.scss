@@ -1,0 +1,49 @@
+@import '../../../assets/css/style.scss';
+
+/*------------------------------------*\
+    #Home page styles
+\*------------------------------------*/
+.main-synopsis__text{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/*------------------------------------*\
+    #Middle display
+\*------------------------------------*/
+@media screen and (min-width: 768px){
+
+    .main-body, .main-synopsis__text{
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    
+    .main-body, .main-synopsis__text{
+        position: relative;
+        bottom: 90px;
+    }
+}
+
+/*------------------------------------*\
+    #Large display
+\*------------------------------------*/
+@media screen and (min-width: 1280px){
+    .main-body, .main-synopsis, .main-navbar{
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    .main-body, .main-synopsis__text{
+        position: static;
+        bottom: 0px;
+    }
+
+    .main-synopsis__text{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .main-synopsis{
+        display: flex;
+    }
+}

@@ -1,0 +1,57 @@
+@import '../../../../assets/css/style.scss';
+
+/*------------------------------------*\
+    #Single Card
+\*------------------------------------*/
+.card {
+    position: relative;
+    text-align: center;
+}
+
+/*------------------------------------*\
+    #Island Card
+\*------------------------------------*/
+.card-island{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 178px;
+    height: 48px;
+    background: rgba(0, 96, 150, 0.59);
+    backdrop-filter: blur(4px);
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10px;
+    color: $color-white;
+
+    &__name{
+        @include typographyLableSmall();
+    }
+
+    &__location{
+        @include typographyBodySmall();
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .card{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .card-island{
+        width: 275.26px;
+        height: 74.23px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+}

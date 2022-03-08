@@ -1,3 +1,4 @@
 .DS_Store
 node_modules/
-public/
+task03-one-piece-website/public/
+task05-staging/public/

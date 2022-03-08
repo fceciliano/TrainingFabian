@@ -1,0 +1,46 @@
+@import '../../../../assets/css/style.scss';
+
+/*------------------------------------*\
+    #Nav bar
+\*------------------------------------*/
+
+.nav-bar {
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icon{
+        span{
+            margin-left: 19px;
+            color: black;
+        }
+    }
+
+    &__img{
+        margin-left: 19px;
+        width: 18px;
+        height: 16px;
+    }
+
+    &__list{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+    .nav-bar{
+        .nav-bar__list{
+            display: flex;
+        }
+
+        .nav-bar__icon{
+            display: none;
+        }
+
+        span{
+            display: none;
+        }
+    }
+}

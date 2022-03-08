@@ -1,0 +1,42 @@
+@import '../../../../assets/css/style.scss';
+
+/*------------------------------------*\
+    #Header List of Cards
+\*------------------------------------*/
+.cards-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 32px;
+
+    margin-left: 16px;
+    margin-right: 16px;
+
+    &__name{
+        @include typographyTitleMedium();
+        color: $color-black;
+    }
+
+    &__all{
+        @include typographyBodyMedium();
+        color: $color-primary-dark-01;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .cards-header{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .cards-header{
+        &__name{
+            @include typographyHeadingMedium();
+            font-weight: 200;
+        }
+
+    }
+}
+
