@@ -12,6 +12,7 @@
     overflow-x: auto;
     justify-content: space-between;
     gap: 15px;
+    margin-left: 16px;
     
     &::-webkit-scrollbar{
         display: none;
@@ -21,6 +22,8 @@
 @media screen and (min-width: 768px){
     .cards-container-scroll{
         justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .cards-container-wrap{
         justify-content: space-between;

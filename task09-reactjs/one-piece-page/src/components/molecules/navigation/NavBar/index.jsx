@@ -7,7 +7,6 @@ const NavBar = ({navBar}) => {
     return (
         <div className="nav-bar">
             <div className="nav-bar__icon" >
-                {/* <span className="material-icons">menu</span> */}
                 <img className="nav-bar__img" src={navBar.iconMenu.imgSrc} imgAlt={navBar.image.imgAlt} />
             </div>
 

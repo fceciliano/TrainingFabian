@@ -9,6 +9,9 @@
     margin-top: 48px;
     margin-bottom: 32px;
 
+    margin-left: 16px;
+    margin-right: 16px;
+
     &__name{
         @include typographyTitleMedium();
         color: $color-black;
@@ -17,6 +20,13 @@
     &__all{
         @include typographyBodyMedium();
         color: $color-primary-dark-01;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .cards-header{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -29,3 +39,4 @@
 
     }
 }
+
